@@ -4,6 +4,7 @@ import openai
 from langchain_core.prompts import ChatPromptTemplate, FewShotChatMessagePromptTemplate
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv, find_dotenv
+from langchain_community.llms import Ollama
 
 
 # Load environment variables from .env file
