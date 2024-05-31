@@ -13,15 +13,3 @@ response = ollama.chat(model='llama3', messages=[
 
 print('Narrative Characterization:')
 print(response['message']['content'])
-
-prompt = f"Make a visual representation of the narrative characterization. Consider that the nodes represent actors, factors, and mechanisms in the context of a knowledge graph. At the same time, the edges show the relationships on how actors use mechanisms to interact with factors (actions taken by actors), such as “upheld the redistricting,” “criticized the decision,” and “benefited from redistricting.” {response['message']['content']}"
-
-response = ollama.chat(model='llama3', messages=[
-  {
-    'role': 'user',
-    'content': prompt,
-  },
-])
-
-print('Visual Representation of the Narrative Characterization:')
-print(response['message']['content'])
