@@ -1,0 +1,44 @@
+[
+    {
+        "model": "llama3",
+        "response": [
+            {
+                "entity": "Joe Biden",
+                "type": "Person"
+            },
+            {
+                "entity": "Supreme Court",
+                "type": "Organization"
+            },
+            {
+                "entity": "South Carolina",
+                "type": "Location"
+            },
+            {
+                "entity": "President",
+                "type": "Role"
+            }
+        ]
+    },
+    {
+        "model": "mistral",
+        "response": [
+            {
+                "entity": "Joe Biden",
+                "type": "Person"
+            },
+            {
+                "entity": "Supreme Court",
+                "type": "Organization"
+            },
+            {
+                "entity": "South Carolina",
+                "type": "Location"
+            },
+            {
+                "entity": "President",
+                "type": "Role"
+            }
+        ]
+    }
+]
