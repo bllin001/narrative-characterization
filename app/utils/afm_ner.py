@@ -11,11 +11,17 @@ output = []
 
 text = """President Joe Biden criticized the Supreme Court's decision on the redistricting of the South Carolina district by issuing a public statement highlighting concerns about racial discrimination."""
 
+system_prompt = """
+You are a helpful information extraction system. Consider the following criterias:
+1. DO  not use acronyms to refer to entities.
+2. Only output entities that are in the passage (i.e., keep the exact text of the entity).
+4. if you detect two entities together, consider them as one entity. (i.e., text: Colombia, Barranquilla; entity: Colombia, Barranquilla; type: Location)
+"""
 
 # Define the prompt template
 prompt_template = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful information extraction system."),
+        ("system", system_prompt),
         ("human", "{input}"),
         ("ai", "{output}")
     ]

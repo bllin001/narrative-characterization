@@ -29,15 +29,15 @@
             },
             {
                 "entity": "South Carolina district",
-                "type": "Location/District"
+                "type": "Location/Place"
             },
             {
-                "entity": "Joe Biden",
-                "type": "Person"
+                "entity": "Supreme Court'diction decision",
+                "type": "Legal Entity - Organization and Action Taken"
             },
             {
-                "entity": "South Carolina district",
-                "type": "Location/District"
+                "entity": "racial discrimination",
+                "type": "Concept or Issue"
             }
         ]
     },
@@ -50,10 +50,10 @@
             },
             {
                 "entity": "Supreme Court",
-                "type": "ORGANIZATION"
+                "type": "ORG"
             },
             {
-                "entity": "South Carolina district",
+                "entity": "South Carolina",
                 "type": "GPE"
             }
         ]
