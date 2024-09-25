@@ -1,0 +1,22 @@
+[
+    {
+        "entity": "President Joe Biden",
+        "type": "Person"
+    },
+    {
+        "entity": "Supreme Court",
+        "type": "Organization"
+    },
+    {
+        "entity": "South Carolina",
+        "type": "Location"
+    },
+    {
+        "entity": "district",
+        "type": "Location"
+    },
+    {
+        "entity": "racial discrimination",
+        "type": "Concept or Issue"
+    }
+]
