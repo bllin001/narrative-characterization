@@ -1,6 +1,6 @@
 [
     {
-        "model": "llama3",
+        "model": "llama3.1",
         "response": [
             {
                 "entity": "Joe Biden",
@@ -15,29 +15,46 @@
                 "type": "Location"
             },
             {
-                "entity": "President",
-                "type": "Role"
+                "entity": "district",
+                "type": "Location"
             }
         ]
     },
     {
-        "model": "mistral",
+        "model": "phi3.5",
         "response": [
+            {
+                "entity": "President Joe Biden",
+                "type": "Person"
+            },
+            {
+                "entity": "South Carolina district",
+                "type": "Location/District"
+            },
             {
                 "entity": "Joe Biden",
                 "type": "Person"
             },
             {
+                "entity": "South Carolina district",
+                "type": "Location/District"
+            }
+        ]
+    },
+    {
+        "model": "gemma2",
+        "response": [
+            {
+                "entity": "Joe Biden",
+                "type": "PERSON"
+            },
+            {
                 "entity": "Supreme Court",
-                "type": "Organization"
+                "type": "ORGANIZATION"
             },
             {
-                "entity": "South Carolina",
-                "type": "Location"
-            },
-            {
-                "entity": "President",
-                "type": "Role"
+                "entity": "South Carolina district",
+                "type": "GPE"
             }
         ]
     }
