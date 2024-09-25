@@ -5,11 +5,12 @@ import re
 import json
 
 # Define LLMS models
-llms_models = ['llama3', 'mistral']
+llms_models = ['llama3.1', 'phi3.5', 'gemma2']
 entities = []
 output = []
 
-text = "President Joe Biden criticized the Supreme Court's decision on the redistricting of the South Carolina district by issuing a public statement highlighting concerns about racial discrimination."
+text = """President Joe Biden criticized the Supreme Court's decision on the redistricting of the South Carolina district by issuing a public statement highlighting concerns about racial discrimination."""
+
 
 # Define the prompt template
 prompt_template = ChatPromptTemplate.from_messages(
@@ -34,13 +35,20 @@ for model in llms_models:
     # Find all matches in the string
     matches = re.findall(pattern, response)
 
+    # Reset entities list for each model
+    entities = []
+
     # Print the extracted entities and their types
     for entity, entity_type in matches:
         entities.append({'entity': entity, 'type': entity_type})
-    print(entities)    
+    
     output.append({'model': model, 'response': entities})
 
-print(output)
+for model_output in output:
+    print(f"Model: {model_output['model']}")
+    for entity in model_output['response']:
+        print(f"Entity: {entity['entity']}, Type: {entity['type']}")
+    print('---')
 
 # Save the final list of entities by model into a JSON file
 output_file_path = os.path.join("utils", "extracted_entities.json")
