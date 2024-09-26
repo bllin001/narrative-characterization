@@ -29,15 +29,27 @@
             },
             {
                 "entity": "South Carolina district",
-                "type": "Location/Place"
+                "type": "Location & Political Subdivision"
             },
             {
-                "entity": "Supreme Court'diction decision",
-                "type": "Legal Entity - Organization and Action Taken"
+                "entity": "Supreme Court'dict decision",
+                "type": "Legal Entity - Government Judiciary Body"
             },
             {
-                "entity": "racial discrimination",
-                "type": "Concept or Issue"
+                "entity": "redistricting",
+                "type": "Political Process"
+            },
+            {
+                "entity": "President Joe Biden",
+                "type": "Person"
+            },
+            {
+                "entity": "South Carolina district",
+                "type": "Location & Political Subdivision"
+            },
+            {
+                "entity": "Supreme Court'dict decision",
+                "type": "Legal Entity - Government Judiciary Body"
             }
         ]
     },
@@ -50,7 +62,7 @@
             },
             {
                 "entity": "Supreme Court",
-                "type": "ORG"
+                "type": "ORGANIZATION"
             },
             {
                 "entity": "South Carolina",
