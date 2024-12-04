@@ -1,6 +1,6 @@
 # **LLM Narrative Characterization and Entity Extraction**
 
-This repository explores the use of Large Language Models (LLMs) for characterizing narratives and extracting entities. It focuses on identifying key narrative components—Actors, Factors, and Mechanisms (AFM)—and creating structured representations such as knowledge graphs.
+This repository explores the use of Large Language Models (LLMs) for characterizing narratives and extracting entities. It focuses on identifying key narrative components—Actors, Factors, and Mechanisms (AFM)
 
 **Read more about it in my blog titled:** [*2024-12-XX: From Narrative to Conceptualization: The Role of Large Language Models in Analysis, Modeling, and Simulation*](https://your-website-link.com)
 
@@ -49,11 +49,7 @@ By organizing these components, we transform unstructured text into structured r
 
 - **Narrative Characterization**:
   - Categorize narratives into Actors, Factors, and Mechanisms (AFM).
-  - Build structured models for visualization and analysis.
-
-- **Entity Unification**:
-  - Merge entities with cosine similarity techniques using pre-trained Sentence-BERT (SBERT).
-  - Consolidate LLM outputs into a unified dataset.
+  - You could build structured models for visualization and analysis.
 
 ---
 
@@ -61,8 +57,8 @@ By organizing these components, we transform unstructured text into structured r
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/bllin001/narrative-characterization.git
+cd narrative-characterization
 ```
 
 ### **2. Install Dependencies**
@@ -133,7 +129,6 @@ This project contributes to integrating LLMs with simulation and conceptual mode
 
 ## **Future Directions**
 
-- Refine cosine similarity thresholds for improved entity merging.
 - Develop custom NER models for narrative characterization.
 - Expand datasets to support training and evaluation of AFM extractions.
 
