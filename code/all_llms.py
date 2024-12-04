@@ -29,9 +29,8 @@ prompt_template = ChatPromptTemplate.from_messages(
     ]
 )
 
-# Read AMB model descriptions from abm_description.txt
-with open('abm_description.txt', 'r') as file:
-    text = file.readlines()
+
+text = 'President Joe Biden criticized the Supreme Court’s decision on the redistricting of the South Carolina district by issuing a public statement highlighting concerns about racial discrimination.'
 
 # Define the input text and prompt
 prompt = f"What are the actors, factors, and mechanisms in the following text: {text}"
