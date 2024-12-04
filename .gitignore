@@ -1,5 +1,6 @@
 *.env
-test/
-news-snippet/
 docs/
 .DS_Store
+data/abm_description.txt
+data/Norm_Promotion_and_Adoption.xlsx
+data/prompt_afm.txt
