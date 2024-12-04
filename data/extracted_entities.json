@@ -12,11 +12,7 @@
             },
             {
                 "entity": "South Carolina",
-                "type": "Location"
-            },
-            {
-                "entity": "district",
-                "type": "Location"
+                "type": "Location/Place"
             }
         ]
     },
@@ -24,32 +20,20 @@
         "model": "phi3.5",
         "response": [
             {
-                "entity": "President Joe Biden",
+                "entity": "Joe Biden",
                 "type": "Person"
             },
             {
-                "entity": "South Carolina district",
-                "type": "Location & Political Subdivision"
-            },
-            {
-                "entity": "Supreme Court'dict decision",
-                "type": "Legal Entity - Government Judiciary Body"
-            },
-            {
-                "entity": "redistricting",
-                "type": "Political Process"
-            },
-            {
-                "entity": "President Joe Biden",
-                "type": "Person"
+                "entity": "President",
+                "type": "Title"
             },
             {
                 "entity": "South Carolina district",
-                "type": "Location & Political Subdivision"
+                "type": "Geopolitical Entity"
             },
             {
-                "entity": "Supreme Court'dict decision",
-                "type": "Legal Entity - Government Judiciary Body"
+                "entity": "racial discrimination",
+                "type": "Issue"
             }
         ]
     },
@@ -57,12 +41,16 @@
         "model": "gemma2",
         "response": [
             {
-                "entity": "Joe Biden",
+                "entity": "President Joe Biden",
                 "type": "PERSON"
             },
             {
                 "entity": "Supreme Court",
                 "type": "ORGANIZATION"
+            },
+            {
+                "entity": "reddistricting of the South Carolina district",
+                "type": "EVENT"
             },
             {
                 "entity": "South Carolina",

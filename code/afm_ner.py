@@ -34,6 +34,9 @@ prompt = f"Given a passage, your task is to extract all entities and identify th
 for model in llms_models:
     chat_model = Ollama(model=model)
     response = chat_model.invoke([prompt])
+    print(f'model: {model}')
+    print(response)
+    print('---')
 
     # Regex pattern to extract entities and their types
     pattern = r'\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\)'
