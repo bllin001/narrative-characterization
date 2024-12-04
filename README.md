@@ -57,6 +57,11 @@ By organizing these components, we transform unstructured text into structured r
 git clone https://github.com/bllin001/narrative-characterization.git
 cd narrative-characterization
 ```
+### **2. Create and Activate a Conda Environment**
+```bash
+conda create --name narrative_env python=3.10.14 -y
+conda activate narrative_env
+```
 
 ### **2. Install Dependencies**
 ```bash
