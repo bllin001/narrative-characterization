@@ -19,12 +19,9 @@ This repository explores the use of Large Language Models (LLMs) for characteriz
 │   ├── llama3.py            # Testing script for Llama outputs
 │   └── mistral.py           # Testing script for Mistral outputs
 ├── data/                    # Data files for entity extraction and characterization
-│   ├── abm_description.txt  # Text description of an agent-based model
 │   ├── AFM.xlsx             # Spreadsheet for narrative analysis
 │   ├── llms_output.csv      # Extracted entities from LLMs in CSV format
-│   ├── llms_output.json     # Extracted entities from LLMs in JSON format
-│   ├── Norm_Promotion_and_Adoption.xlsx # Supplementary analysis spreadsheet
-│   └── prompt_afm.txt       # Prompt for Actor-Factor-Mechanism (AFM) characterization
+│   └── llms_output.json     # Extracted entities from LLMs in JSON format
 ```
 
 ---
