@@ -2,7 +2,7 @@
 
 This repository explores the use of Large Language Models (LLMs) for characterizing narratives and extracting entities. It focuses on identifying key narrative components—Actors, Factors, and Mechanisms (AFM)
 
-**Read more about it in my blog titled:** [*2025-01-22: From Narrative to Conceptualization: The Role of Large Language Models in Modeling & Simulation*]([https://ws-dl.blogspot.com/2025/01/2025-01-22-from-narrative-to-conceptualization.html])
+**Read more about it in my blog titled:** [*2025-01-22: From Narrative to Conceptualization: The Role of Large Language Models in Modeling & Simulation*](https://ws-dl.blogspot.com/2025/01/2025-01-22-from-narrative-to-conceptualization.html)
 
 ---
 
